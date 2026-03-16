@@ -637,7 +637,7 @@ return style. _attr_;
     YYTextAttachment *attach = [YYTextAttachment new];
     attach.content = content;
     attach.contentMode = contentMode;
-    attach.userInfo = userInfo
+    attach.userInfo = userInfo;
     [atr yy_setTextAttachment:attach range:NSMakeRange(0, atr.length)];
     
     YYTextRunDelegate *delegate = [YYTextRunDelegate new];
